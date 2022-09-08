@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #EBEFF7;
+}
+.container{
+    background: #fff;
+    border-radius: 20px;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 90px auto;
+    gap: 150px;
+    box-shadow: 10px 15px 10px #888888;
+}
+
+.logo img{
+    padding-top: 50px;
+    width: 400px;
+}
+
+.login-container{
+    margin-left: -100px;
+    padding:50px 20px;
+    text-align: center;
+}
+
+.login-container h3{
+    margin-top: 15px;
+
+}
+
+.user-preference{
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.user{
+    margin-top: -3px;
+    padding: 5px;
+}
+
+.form-group{
+    padding: 10px;
+}
+.form-group form input {
+    display: block;
+}
+
+#username , #password {
+    width: 200px;
+    line-height: 15px;
+    padding: 10px;
+}
+#username{
+    margin-bottom: 15px ;
+}
+
+.form-group1{
+    padding-right: 10px;
+    padding-left: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.form-group1 #forgot{
+    font-size: 12px;
+}
+.form-group1 p{
+    font-size: 12px;
+    margin-left: -15px;
+}
+
+.register {
+    text-decoration: none;
+    font-size: 14px;
+    margin-top:20px;
+}
+.register a{
+    cursor: pointer;
+    color : #555;
+    text-decoration: none;
+    transition: 1.5s;
+}
+.register a:hover{
+    text-decoration: underline;
+    color:rgb(62, 62, 238);
+}
+.button{
+    margin: 10px auto;
+}
+.button button{
+    width: 50%;
+    padding: 10px;
+    background: rgb(102, 102, 243);
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background: blue;
+}
+
+
+/* Register Styles */
+
+.register-container{
+    display:none;
+    width: 300px;
+    margin-left: -100px;
+    padding:100px 10px;
+    text-align: center;
+}
+
+.register-container h3{
+    margin-top: 20px;
+}
+
+.regi-form-group{
+    margin-top: 20px;
+}
+
+.regi-user{
+    margin-top: -3px;
+    padding: 5px;
+}
+
+.register-preference{
+    
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.regi-button{
+    margin: 10px auto;
+}
+.regi-button button{
+    width: 50%;
+    padding: 10px;
+    background: rgb(102, 102, 243);
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.regi-button button:hover{
+    cursor: pointer;
+    background: blue;
+}
+
+
+
+

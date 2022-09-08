@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>E-Procurement Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="login-regi.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <!--RTU LOGO-->
+        <div class="container">
+            <div class="logo">
+                <img src="image/rtu-logo.png" alt="rtu-logo">
+            </div>
+
+
+            <!-- LOGIN FORM -->
+            <div class="login-container">
+                <h1>E-Procurement </h1>
+                <h3>Sign-In</h3>
+                <div class="user-preference">
+                    <p>Login in as:</p>
+                    <select class="user">
+                        <option value="" id="users">Employee</option>
+                        <option value="" id="users">Supplier</option>
+                    </select>
+                </div>
+
+                <!-- Form Group -->
+                <div class="form-group">
+                    <form class="user">
+                        <input type="email" id="username" name="username" placeholder="Email:">
+                        <input type="password" id="password" name="password" placeholder="Password:">
+                    </form>
+                </div>
+
+
+                <!-- Form Group 1-->
+                <div class="form-group1">
+                    <input type="checkbox">
+                    <p>Remember Me</p>
+                    <a link href="" id="forgot">Forgot Password?</a>
+                </div>
+
+                <div class="register">
+                    <a class="regi">I don't have any account yet.</a>
+                </div>
+
+
+                <!-- Submit Button -->
+                <div class="button">
+                    <button class="sign-in">Sign In</button>
+                </div>
+            </div>
+
+
+            <!-- End of Login Containter -->
+
+            <!-- Start of Register Containter -->
+
+            <div class="register-container">
+                <h1>E-Procurement </h1>
+                <h3>Register</h3>
+                <!-- Register Form Group -->
+                <div class="regi-form-group">
+                    <form class="regi-user">
+                        <input type="email" id="username" name="username" placeholder="Email:">
+                        <input type="password" id="password" name="password" placeholder="Password:">
+                    </form>
+                </div>
+
+                <div class="register-preference">
+                    <p>Register as:</p>
+                    <select class="regi-user">
+                        <option value="" id="regi-users">Employee</option>
+                        <option value="" id="regi-users">Supplier</option>
+                    </select>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="regi-button">
+                    <button class="login">Register</button>
+                </div>
+            </div>
+
+            <!-- End of Register Containter -->
+
+        </div>
+    </main>
+</body>
+
+</html>
