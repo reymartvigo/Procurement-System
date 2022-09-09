@@ -33,14 +33,12 @@ body{
     margin-top: 15px;
 
 }
-
 .user-preference{
     margin-top: 30px;
     gap: 10px;
     display: flex;
     justify-content: center;
 }
-
 .user{
     margin-top: -3px;
     padding: 5px;
@@ -136,7 +134,6 @@ body{
 }
 
 .register-preference{
-    
     margin-top: 20px;
     gap: 10px;
     display: flex;
@@ -161,6 +158,99 @@ body{
 .regi-button button:hover{
     cursor: pointer;
     background: blue;
+}
+
+
+
+/*  RESPONSIVE MEDIA QUERIES */
+@media screen and (max-width: 375px){
+    .container{
+        width: 345px;
+        height: 640px;
+        display: block;
+        margin: 10px auto;
+    }
+    .logo img{
+        margin-left: 90px;
+        padding-top: 40px;
+        width: 150px;
+    } 
+    .login-container , .register-container{
+        width: 300px;
+        margin: 10px auto;
+        padding:10px 10px;
+    }   
+    .form-group form input , .regi-form-group{
+    display: block;
+    margin: 6px auto;
+    }
+    .form-group1{
+        padding-right: 10px;
+        padding-left: 10px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .form-group1 #forgot{
+        font-size: 13px;
+    }
+    .form-group1 p{
+        font-size: 13px;
+        margin-left: -50px;
+    }
+
+/*   Register Container */
+    .register-container h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 685px){
+    .container{
+        width: 370px;
+        height: 640px;
+        display: block;
+        margin: 70px auto;
+    }
+    .logo img{
+        margin-left: 105px;
+        padding-top: 40px;
+        width: 150px;
+    } 
+    .login-container , .register-container{
+        width: 300px;
+        margin: 10px auto;
+        padding:10px 10px;
+    }   
+    .form-group form input , .regi-form-group{
+    display: block;
+    margin: 6px auto;
+    }
+    .form-group1{
+        padding-right: 10px;
+        padding-left: 10px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .form-group1 #forgot{
+        font-size: 13px;
+    }
+    .form-group1 p{
+        font-size: 13px;
+        margin-left: -50px;
+    }
+
+/*   Register Container */
+    .register-container h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 900px){
+    .container{ 
+        margin: 150px auto;
+    }
 }
 
 
